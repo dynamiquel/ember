@@ -1,0 +1,21 @@
+{
+  "name": "ember",
+  "displayName": "ember",
+  "description": "A warm, dark IDE theme that prioritises syntax clarity and avoids all cool colors.",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.105.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Ember",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Ember-color-theme.json"
+      }
+    ]
+  }
+}
