@@ -24,6 +24,7 @@ This repository currently contains theme files for:
 
 * **JetBrains IDEs** (e.g., Rider, IntelliJ, PyCharm, WebStorm)
 * **Zed**
+* **VS Code** (this includes VS Code forks, such as Cursor, Windsurf etc.)
 
 ## 💾 Installation
 
@@ -44,6 +45,13 @@ This repository currently contains theme files for:
 3.  In Zed, open the command palette (`Ctrl+Shift+P`).
 4.  Run the `theme selector` command.
 5.  Select `Ember`.
+
+### VS Code
+
+1.  Download the [VSIX file](vscode/ember-0.0.1.vsix) from this repository.
+2.  In VS Code, open the command palette (`Ctrl+Shift+P`).
+3.  Run the `Extensions: Install from VSIX...` command.
+4.  Select the downloaded VSIX file.
 
 ## 📄 License
 
