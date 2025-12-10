@@ -1,8 +1,8 @@
 <scheme name="Ember" version="142" parent_scheme="Darcula">
   <option name="FONT_SCALE" value="1.0" />
   <metaInfo>
-    <property name="ide">Rider</property>
-    <property name="ideVersion">2025.3.0.3.0.0</property>
+    <property name="ide">idea</property>
+    <property name="ideVersion">2025.3.0.0</property>
     <property name="originalScheme">Ember</property>
   </metaInfo>
   <option name="LINE_SPACING" value="1.2" />
@@ -85,6 +85,8 @@
     <option name="WHITESPACES_MODIFIED_LINES_COLOR" value="493927" />
   </colors>
   <attributes>
+    <option name="ANNOTATION_ATTRIBUTE_NAME_ATTRIBUTES" baseAttributes="DEFAULT_METADATA" />
+    <option name="ANNOTATION_NAME_ATTRIBUTES" baseAttributes="DEFAULT_METADATA" />
     <option name="BAD_CHARACTER">
       <value>
         <option name="EFFECT_COLOR" value="ff5647" />
@@ -256,8 +258,8 @@
         <option name="FOREGROUND" value="d9b72b" />
       </value>
     </option>
-    <option name="CSS.COLOR" baseAttributes="CSS.IDENT" />
-    <option name="CSS.IMPORTANT" baseAttributes="DEFAULT_KEYWORD" />
+    <option name="CSS.COLOR" baseAttributes="" />
+    <option name="CSS.IMPORTANT" baseAttributes="" />
     <option name="CSS.PROPERTY_VALUE">
       <value>
         <option name="FOREGROUND" value="bdbdbd" />
@@ -294,6 +296,8 @@
     </option>
     <option name="CUSTOM_STRING_ATTRIBUTES" baseAttributes="DEFAULT_STRING" />
     <option name="CUSTOM_VALID_STRING_ESCAPE_ATTRIBUTES" baseAttributes="DEFAULT_VALID_STRING_ESCAPE" />
+    <option name="Class" baseAttributes="CLASS_NAME_ATTRIBUTES" />
+    <option name="Closure braces" baseAttributes="Braces" />
     <option name="CodeWithMe.USER_1_MARKER">
       <value>
         <option name="FOREGROUND" value="d0d0d0" />
@@ -679,6 +683,11 @@
         <option name="FOREGROUND" value="c7c1a9" />
       </value>
     </option>
+    <option name="ENUM_NAME_ATTRIBUTES">
+      <value>
+        <option name="FOREGROUND" value="ed94c0" />
+      </value>
+    </option>
     <option name="ERRORS_ATTRIBUTES">
       <value>
         <option name="EFFECT_COLOR" value="dd1a00" />
@@ -711,51 +720,34 @@
         <option name="FOREGROUND" value="df4343" />
       </value>
     </option>
-    <option name="GD_BAD_CHARACTER" baseAttributes="BAD_CHARACTER" />
     <option name="GD_BASE_TYPE">
       <value>
         <option name="FOREGROUND" value="ffb486" />
         <option name="FONT_TYPE" value="1" />
       </value>
     </option>
-    <option name="GD_CLASS_TYPE" baseAttributes="DEFAULT_KEYWORD" />
-    <option name="GD_COMMENT" baseAttributes="DEFAULT_LINE_COMMENT" />
-    <option name="GD_DANGER" baseAttributes="BAD_CHARACTER" />
-    <option name="GD_DOC_COMMENT" baseAttributes="DEFAULT_DOC_COMMENT" />
     <option name="GD_ENGINE_TYPE">
       <value>
         <option name="FOREGROUND" value="ffb486" />
       </value>
     </option>
-    <option name="GD_FLOW_KEYWORDS" baseAttributes="DEFAULT_KEYWORD" />
     <option name="GD_GLOBAL_FUNCTION">
       <value>
         <option name="FOREGROUND" value="eadfb2" />
         <option name="FONT_TYPE" value="1" />
       </value>
     </option>
-    <option name="GD_KEYWORD" baseAttributes="DEFAULT_KEYWORD" />
-    <option name="GD_MEMBER" baseAttributes="DEFAULT_CONSTANT" />
-    <option name="GD_METHOD_CALL" baseAttributes="DEFAULT_INSTANCE_METHOD" />
-    <option name="GD_METHOD_DECLARATION" baseAttributes="DEFAULT_INSTANCE_METHOD" />
     <option name="GD_NODE_PATH">
       <value>
         <option name="FOREGROUND" value="c7c1a9" />
       </value>
     </option>
-    <option name="GD_NODE_STRING_PATH" baseAttributes="DEFAULT_DOC_COMMENT_TAG" />
-    <option name="GD_NOTE" baseAttributes="DEFAULT_DOC_MARKUP" />
-    <option name="GD_NUMBER" baseAttributes="DEFAULT_NUMBER" />
     <option name="GD_STATIC_METHOD_CALL">
       <value>
         <option name="FOREGROUND" value="eadfb2" />
         <option name="FONT_TYPE" value="1" />
       </value>
     </option>
-    <option name="GD_STRING" baseAttributes="DEFAULT_STRING" />
-    <option name="GD_STRING_FORMAT" baseAttributes="DEFAULT_STRING" />
-    <option name="GD_STRING_NAME" baseAttributes="DEFAULT_STRING" />
-    <option name="GD_WARNING" baseAttributes="DEFAULT_DOC_MARKUP" />
     <option name="GENERIC_SERVER_ERROR_OR_WARNING">
       <value>
         <option name="EFFECT_COLOR" value="f88d02" />
@@ -776,6 +768,7 @@
         <option name="FONT_TYPE" value="2" />
       </value>
     </option>
+    <option name="Groovy method declaration" baseAttributes="METHOD_DECLARATION_ATTRIBUTES" />
     <option name="HTML_ATTRIBUTE_NAME" baseAttributes="DEFAULT_ATTRIBUTE" />
     <option name="HTML_ATTRIBUTE_VALUE" baseAttributes="DEFAULT_STRING" />
     <option name="HTML_CUSTOM_TAG_NAME" baseAttributes="HTML_TAG_NAME" />
@@ -803,6 +796,7 @@
         <option name="ERROR_STRIPE_COLOR" value="293a5f" />
       </value>
     </option>
+    <option name="IMPLICIT_ANONYMOUS_CLASS_PARAMETER_ATTRIBUTES" baseAttributes="CLASS_NAME_ATTRIBUTES" />
     <option name="INFO_ATTRIBUTES">
       <value>
         <option name="EFFECT_COLOR" value="ffab00" />
@@ -847,17 +841,35 @@
         <option name="FOREGROUND" value="487d34" />
       </value>
     </option>
-    <option name="JS.GLOBAL_FUNCTION" baseAttributes="DEFAULT_FUNCTION_DECLARATION" />
-    <option name="JS.GLOBAL_VARIABLE" baseAttributes="DEFAULT_GLOBAL_VARIABLE" />
-    <option name="JS.INSTANCE_MEMBER_FUNCTION" baseAttributes="DEFAULT_INSTANCE_METHOD" />
-    <option name="JS.LOCAL_VARIABLE" baseAttributes="DEFAULT_LOCAL_VARIABLE" />
     <option name="JS.MODULE_NAME">
       <value>
         <option name="FOREGROUND" value="c191ff" />
       </value>
     </option>
-    <option name="JS.REGEXP" baseAttributes="DEFAULT_STRING" />
-    <option name="JavaScript:INJECTED_LANGUAGE_FRAGMENT" baseAttributes="INJECTED_LANGUAGE_FRAGMENT" />
+    <option name="KOTLIN_DATA_CLASS">
+      <value>
+        <option name="FOREGROUND" value="ffcba1" />
+      </value>
+    </option>
+    <option name="KOTLIN_ENUM">
+      <value>
+        <option name="FOREGROUND" value="ed94c0" />
+      </value>
+    </option>
+    <option name="KOTLIN_ENUM_ENTRY">
+      <value>
+        <option name="FOREGROUND" value="ed94c0" />
+        <option name="FONT_TYPE" value="1" />
+        <option name="EFFECT_TYPE" value="1" />
+      </value>
+    </option>
+    <option name="KOTLIN_LABEL" baseAttributes="DEFAULT_LABEL" />
+    <option name="KOTLIN_NAMED_ARGUMENT">
+      <value>
+        <option name="FOREGROUND" value="c7c1a9" />
+      </value>
+    </option>
+    <option name="KOTLIN_TYPE_PARAMETER" baseAttributes="TYPE_PARAMETER_NAME_ATTRIBUTES" />
     <option name="LESS_BAD_CHARACTER">
       <value>
         <option name="EFFECT_COLOR" value="ff5647" />
@@ -1086,7 +1098,9 @@
         <option name="BACKGROUND" value="422240" />
       </value>
     </option>
-    <option name="NG.SIGNAL" baseAttributes="TS.INSTANCE_MEMBER_FUNCTION" />
+    <option name="Map key">
+      <value />
+    </option>
     <option name="NOT_TOP_FRAME_ATTRIBUTES">
       <value>
         <option name="BACKGROUND" value="13362e" />
@@ -1101,6 +1115,11 @@
     <option name="PROPERTIES.KEY" baseAttributes="DEFAULT_KEYWORD" />
     <option name="PROPERTIES.KEY_VALUE_SEPARATOR" baseAttributes="DEFAULT_OPERATION_SIGN" />
     <option name="PROPERTIES.VALID_STRING_ESCAPE" baseAttributes="DEFAULT_VALID_STRING_ESCAPE" />
+    <option name="RECORD_NAME_ATTRIBUTES">
+      <value>
+        <option name="FOREGROUND" value="ffcba1" />
+      </value>
+    </option>
     <option name="REGEXP.BAD_CHARACTER">
       <value>
         <option name="EFFECT_COLOR" value="ff5647" />
@@ -1681,6 +1700,7 @@
         <option name="FOREGROUND" value="c9a26d" />
       </value>
     </option>
+    <option name="STATIC_METHOD_ATTRIBUTES" baseAttributes="DEFAULT_STATIC_METHOD" />
     <option name="SUGGESTION">
       <value>
         <option name="EFFECT_COLOR" value="85c46c" />
@@ -1688,6 +1708,8 @@
         <option name="EFFECT_TYPE" value="5" />
       </value>
     </option>
+    <option name="Static method access" baseAttributes="STATIC_METHOD_ATTRIBUTES" />
+    <option name="Static property reference ID" baseAttributes="STATIC_FINAL_FIELD_ATTRIBUTES" />
     <option name="TDIFF_EXCLUDED_COLUMN">
       <value>
         <option name="BACKGROUND" value="404040" />
@@ -1752,7 +1774,6 @@
         <option name="FOREGROUND" value="ff0000" />
       </value>
     </option>
-    <option name="TSCN_MEMBER_REF" baseAttributes="DEFAULT_FUNCTION_CALL" />
     <option name="TSCN_NODE_RESOURCE">
       <value>
         <option name="FOREGROUND" value="ffbb91" />
@@ -1763,10 +1784,13 @@
         <option name="FOREGROUND" value="ffbb91" />
       </value>
     </option>
-    <option name="TSCN_RES_STRING" baseAttributes="DEFAULT_STRING" />
-    <option name="TSCN_STRING" baseAttributes="DEFAULT_STRING" />
     <option name="TSCN_SYNTAX_TOKENS">
       <value />
+    </option>
+    <option name="TYPE_PARAMETER_NAME_ATTRIBUTES">
+      <value>
+        <option name="FOREGROUND" value="ffb486" />
+      </value>
     </option>
     <option name="UNMATCHED_BRACE_ATTRIBUTES">
       <value>
