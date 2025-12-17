@@ -48,6 +48,8 @@ This repository currently contains theme files for:
 
 ### VS Code
 
+*Note: the VS Code theme is not feature-parity with the JetBrains theme due to limitations and time.*
+
 1.  Download the [VSIX file](vscode/ember-0.0.1.vsix) from this repository.
 2.  In VS Code, open the command palette (`Ctrl+Shift+P`).
 3.  Run the `Extensions: Install from VSIX...` command.
